@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <div class="calculator">
+        <div class="display">
+            <div id="display__content">0</div>
+        </div>
+        <div class="buttons">
+            <div class="buttons__row">
+                <div class="buttons__button" id="clear">AC</div>
+                <div class="buttons__button" id="switch">+/-</div>
+                <div class="buttons__button" id="percent">%</div>
+                <div class="buttons__button" id="divide">÷</div>
+            </div>
+            <!-- Note : Nous utilisons une classe "number" pour tous les numéros -->
+            <div class="buttons__row">
+                <div class="buttons__button number">7</div>
+                <div class="buttons__button number">8</div>
+                <div class="buttons__button number">9</div>
+                <div class="buttons__button" id="multiply">x</div>
+            </div>
+            <div class="buttons__row">
+                <div class="buttons__button number">4</div>
+                <div class="buttons__button number">5</div>
+                <div class="buttons__button number">6</div>
+                <div class="buttons__button" id="subtract">-</div>
+            </div>
+            <div class="buttons__row">
+                <div class="buttons__button number">1</div>
+                <div class="buttons__button number">2</div>
+                <div class="buttons__button number">3</div>
+                <div class="buttons__button" id="add">+</div>
+            </div>
+            <div class="buttons__row">
+                <div class="buttons__button number">0</div>
+                <div class="buttons__button" id="dot">.</div>
+                <div class="buttons__button" id="equal">=</div>
+            </div>
+        </div>
+</body>
+</html>
